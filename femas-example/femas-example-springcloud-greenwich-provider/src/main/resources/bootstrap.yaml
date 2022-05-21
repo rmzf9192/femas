@@ -1,17 +1,18 @@
 server:
-  port: 19001
+  port: 19002
 spring:
   application:
-    name: femas-springcloud-provider
+    name: femas-springcloud-provider-roman
   cloud:
     nacos:
       discovery:
         server-addr: 106.53.127.164:8848
+        namespace: roman-cne2
       username: nacos
       password: nacos
       config:
         server-addr: 106.53.127.164:8848
-
+        namespace: roman-cne2
 management:
   endpoints:
     web:

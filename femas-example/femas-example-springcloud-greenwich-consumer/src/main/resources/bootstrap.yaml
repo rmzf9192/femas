@@ -2,15 +2,16 @@ server:
   port: 18001
 spring:
   application:
-    name: femas-springcloud-consumer
+    name: femas-springcloud-consumer-roman
   cloud:
     nacos:
       discovery:
-        server-addr: 127.0.0.1:8848
+        server-addr: 106.53.127.164:8848
+        namespace: roman-cne1
       username: nacos
       password: nacos
       config:
-        server-addr: 127.0.0.1:8848
+        server-addr: 106.53.127.164:8848
 #    consul:
 #      host: 127.0.0.1
 #      port: 8500
