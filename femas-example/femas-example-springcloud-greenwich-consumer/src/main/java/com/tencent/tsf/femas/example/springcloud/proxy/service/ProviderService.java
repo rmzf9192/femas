@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-@FeignClient(name = "femas-springcloud-provider")
+@FeignClient(name = "femas-springcloud-provider-roman")
 //@FeignClient(name = "femas-springcloud-provider", url = "127.0.0.1:19001")
 public interface ProviderService {
 
