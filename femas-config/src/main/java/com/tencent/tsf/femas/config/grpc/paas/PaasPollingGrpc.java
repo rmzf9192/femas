@@ -7,7 +7,7 @@ import static io.grpc.MethodDescriptor.generateFullMethodName;
  *添加一个服务
  * </pre>
  */
-@javax.annotation.Generated(
+@javax.annotation.processing.Generated(
     value = "by gRPC proto compiler (version 1.46.0)",
     comments = "Source: PaasPolling.proto")
 public final class PaasPollingGrpc {
